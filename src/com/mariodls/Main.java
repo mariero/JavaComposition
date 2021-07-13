@@ -10,7 +10,7 @@ public class Main {
         PersonalComputer personalComputer1 = new PersonalComputer(tower1, monitor1, motherboard1);
 
         personalComputer1.getMonitor().drawPixelAt(240,480,"White");
-
+        personalComputer1.getTower().pressPowerButton();
 
 
     }
