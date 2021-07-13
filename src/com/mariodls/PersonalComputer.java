@@ -12,15 +12,17 @@ public class PersonalComputer {
         this.motherboard = motherboard;
     }
 
-    public Tower getTower() {
+    //Changing the access modifier from public to private, we cannot have access to the getter getTower
+    private Tower getTower() {
         return tower;
     }
 
-    public Monitor getMonitor() {
+    private Monitor getMonitor() {
         return monitor;
     }
 
-    public Motherboard getMotherboard() {
+    //Changing the access modifier from public to private, we cannot have access to the getter getMotherboard
+    private Motherboard getMotherboard() {
         return motherboard;
     }
 }
