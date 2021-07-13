@@ -11,7 +11,7 @@ public class Main {
 
         personalComputer1.getMonitor().drawPixelAt(240,480,"White");
         personalComputer1.getTower().pressPowerButton();
-
+        personalComputer1.getMotherboard().loadProgram("Windows 11 lol");
 
     }
 }
